@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+
+.error {
+    color: red;
+}
+
+.container {
+    align-self: center;
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 950px;
+    }
+}
+
+legend {
+    margin: 10px;
+}
